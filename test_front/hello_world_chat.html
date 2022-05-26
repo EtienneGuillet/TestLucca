@@ -1,0 +1,75 @@
+<head>
+  <title>Hello World Chat</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="hello_world_chat.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://kit.fontawesome.com/4a66d7f049.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+
+<body class="container">
+  <h1>Test Front Lucca - Hellow world Chat</h1>
+  <div class="helloWorldChat">
+    <div class="row">
+      <div class="col-12 col-md-6 colA">
+        <h2>Chat A</h2>
+        <div id="chatA" class="chat rounded border overflow-auto"></div>
+        <div class="input-group mb-3">
+          <input
+            id="inputChatA"
+            type="text"
+            class="form-control"
+            placeholder="Votre message"
+          />
+          <button
+            type="submit"
+            id="buttonChatA"
+            onclick="sendMessage('A', 'B')"
+            class="btn btn-outline-primary"
+            type="button"
+          >
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 colB">
+        <h2>Chat B</h2>
+        <div id="chatB" class="chat rounded border overflow-auto"></div>
+        <div class="input-group mb-3">
+          <input
+            id="inputChatB"
+            type="text"
+            class="form-control"
+            placeholder="Votre message"
+          />
+          <button
+            type="submit"
+            id="buttonChatB"
+            onclick="sendMessage('B', 'A')"
+            class="btn btn-outline-primary"
+            type="button"
+          >
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="hello_world_chat.js"></script>
+</body>
