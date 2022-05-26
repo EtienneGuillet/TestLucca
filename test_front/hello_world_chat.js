@@ -22,7 +22,7 @@ var keyHandler = function (event) {
 
   if (pattern.length === current) {
     current = 0;
-    window.alert("You found it!");
+    $("#surpriseModal").modal("show");
   }
 };
 
