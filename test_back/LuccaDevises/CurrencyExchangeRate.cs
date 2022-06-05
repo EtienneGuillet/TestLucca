@@ -42,16 +42,16 @@
 
         public CurrencyExchangeRate(CurrencyExchangeRate toClone)
         {
-            ExchangeRate = toClone.ExchangeRate;
-            StartingCurrency = toClone.StartingCurrency;
-            EndingCurrency = toClone.EndingCurrency;
+            _exchangeRate = toClone.ExchangeRate;
+            _startingCurrency = toClone.StartingCurrency;
+            _endingCurrency = toClone.EndingCurrency;
         }
 
         public CurrencyExchangeRate(float exchangeRate, string startingCurrency, string endingCurrency)
         {
-            ExchangeRate = exchangeRate;
-            StartingCurrency = startingCurrency;
-            EndingCurrency = endingCurrency;
+            _exchangeRate = exchangeRate;
+            _startingCurrency = startingCurrency;
+            _endingCurrency = endingCurrency;
         }
 
         public void display()

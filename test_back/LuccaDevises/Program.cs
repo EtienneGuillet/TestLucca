@@ -4,9 +4,9 @@
     {
         static int Main(string[] args)
         {
-            int final = new LuccaDevises(args).FinalAmount;
-            Console.WriteLine(final);
-            return final;
+            int finalAmount = new LuccaDevises(args).FinalAmount;
+            Console.WriteLine("The final amount of money is: " + finalAmount);
+            return finalAmount;
         }
     }
 }
