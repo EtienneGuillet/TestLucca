@@ -1,0 +1,50 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "environmentVariables": {},
+      "distributionName": ""
+    },
+    "-h": {
+      "commandName": "Project",
+      "commandLineArgs": "-h"
+    },
+    "--help": {
+      "commandName": "Project",
+      "commandLineArgs": "--help"
+    },
+    "file": {
+      "commandName": "Project",
+      "commandLineArgs": ".\\luccaTest.txt",
+      "workingDirectory": "C:\\Users\\Etienne\\Documents\\testLucca\\TestLucca\\test_back\\LuccaDevises\\testFile"
+    },
+    "nothing": {
+      "commandName": "Project"
+    },
+    "lessLines": {
+      "commandName": "Project",
+      "commandLineArgs": "\\lessLinesTest.txt",
+      "workingDirectory": "C:\\Users\\Etienne\\Documents\\testLucca\\TestLucca\\test_back\\LuccaDevises\\testFile"
+    },
+    "invalidFirstLineTest": {
+      "commandName": "Project",
+      "commandLineArgs": "\\invalidFirstLineTest.txt",
+      "workingDirectory": "C:\\Users\\Etienne\\Documents\\testLucca\\TestLucca\\test_back\\LuccaDevises\\testFile"
+    },
+    "invalidFirstLineNameOfCurrencyTest": {
+      "commandName": "Project",
+      "commandLineArgs": "\\invalidFirstLineNameOfCurrencyTest.txt",
+      "workingDirectory": "C:\\Users\\Etienne\\Documents\\testLucca\\TestLucca\\test_back\\LuccaDevises\\testFile"
+    },
+    "invalidFirstLineNameOfCurrency2Test": {
+      "commandName": "Project",
+      "commandLineArgs": "\\invalidFirstLineNameOfCurrency2Test.txt",
+      "workingDirectory": "C:\\Users\\Etienne\\Documents\\testLucca\\TestLucca\\test_back\\LuccaDevises\\testFile"
+    },
+    "valideFileWithMultipleInitialExchangeRates": {
+      "commandName": "Project",
+      "commandLineArgs": "\\luccaTest2.txt",
+      "workingDirectory": "C:\\Users\\Etienne\\Documents\\testLucca\\TestLucca\\test_back\\LuccaDevises\\testFile"
+    }
+  }
+}
