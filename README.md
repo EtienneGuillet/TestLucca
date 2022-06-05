@@ -8,3 +8,6 @@ Le test consiste à réaliser une page HTML unique. Elle doit permettre aux util
 Le test se trouve dans le dossier "test_front" à la racine du dépot.
 
 ### Test back: ###
+
+Le test consiste à développer un programme permettant de convertir automatiquement des montants dans une devise souhaitée.
+Celui-ci à été réalisé en C# avec le framework .NET CORE
